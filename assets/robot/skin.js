@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Object2VR 3.1.8/10781
 // Filename: cardboard.ggsk
-// Generated Fri Apr 17 13:45:38 2020
+// Generated Fri Apr 17 14:20:49 2020
 
 function object2vrSkin(player,base) {
 	var me=this;
