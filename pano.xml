@@ -74,7 +74,7 @@
       <label textcolor="0x000000" enabled="1" height="20" backgroundcolor="0xffffff" border="1" textalpha="1" background="1" bordercolor="0x000000" width="180" backgroundalpha="1" wordwrap="1" borderalpha="1" borderradius="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
       <hotspot title="" description="" tilt="1.55" target="" skinid="ht_node_1" pan="-102.92" id="Point01" url="{node1}"/>
-      <hotspot title="" description="" tilt="8.21" target="_blank" skinid="ht_player" pan="-353.87" id="Demo" url=""/>
+      <hotspot title="" description="" tilt="8.22" target="_blank" skinid="ht_player" pan="-354.07" id="Demo" url=""/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="0" blendcolor="0x000000" zoomout="0"/>
