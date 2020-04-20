@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: 600x600-silhouette_v6.ggsk
-// Generated Sun Apr 19 18:55:31 2020
+// Generated Mon Apr 20 11:42:32 2020
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -4477,7 +4477,7 @@ function pano2vrSkin(player,base) {
 		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
+		el.className="ggskin ggskin_text info_body";
 		el.ggType='text';
 		hs ='';
 		hs+='height : 258px;';
@@ -4498,6 +4498,8 @@ function pano2vrSkin(player,base) {
 		hs+='height: 258px;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 13px;';
+		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
@@ -4558,7 +4560,6 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 245px;';
 		hs+='pointer-events:auto;';
-		hs+='font-weight: bold;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		hs ='position:absolute;';
@@ -12819,9 +12820,9 @@ this.__div.style.top = vs.height / 2 + "px";
 		el.ggType='text';
 		hs ='';
 		hs+='height : 242px;';
-		hs+='left : 12px;';
+		hs+='left : 11px;';
 		hs+='position : absolute;';
-		hs+='top : 45px;';
+		hs+='top : 44px;';
 		hs+='visibility : inherit;';
 		hs+='width : 376px;';
 		hs+='pointer-events:auto;';
@@ -12877,7 +12878,6 @@ this.__div.style.top = vs.height / 2 + "px";
 		hs+='visibility : inherit;';
 		hs+='width : 317px;';
 		hs+='pointer-events:auto;';
-		hs+='font-weight: bold;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		hs ='position:absolute;';
@@ -12992,7 +12992,7 @@ this.__div.style.top = vs.height / 2 + "px";
 		el=me._rectangle_1=document.createElement('div');
 		el.ggId="Rectangle 1";
 		el.ggDx=0;
-		el.ggDy=69;
+		el.ggDy=54;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
@@ -13050,7 +13050,7 @@ this.__div.style.top = vs.height / 2 + "px";
 		el.ggTextDiv=els;
 		el.ggId="Text 1";
 		el.ggDx=1;
-		el.ggDy=69;
+		el.ggDy=54;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
