@@ -71,10 +71,16 @@
       <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
       <hotspot url="{node1}" id="Point01" skinid="ht_node_1" title="Willkommen" target="" tilt="1.73" pan="-112.57" description=""/>
       <hotspot url="media/REEL-Comb-2.mp4" id="Showreel" skinid="ht_video_file" title="Showreel" target="" tilt="-7.47" pan="-265.37" description=""/>
-      <hotspot url="{node3}" id="Point02" skinid="ht_node_1" title="" target="" tilt="9.05" pan="-349.56" description=""/>
+      <hotspot url="{node3}" id="Point02" skinid="ht_node_1" title="" target="" tilt="-16.22" pan="-33.02" description=""/>
       <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-26.38" pan="-271.72" description="https://www.basis-station.de/pdf"/>
       <hotspot url="" id="Point05" skinid="ht_info" title="Info" target="_blank" tilt="-25.43" pan="-254.55" description="station3GmbH - die innovative Agentur, die gerne Großesbewegt. Und Kunden aus diversen Branchen vertrauen auf uns: Als Lead-Agentur betreuen wir den Digital-Etat von Mercedes-Benz Own Retail Deutschland für Transporter und Vans. Ganz egal, ob Webdesign oder -entwicklung, digitales Kampagnenmanagement oder CRM – die Marke liegt uns sehr und wir freuen uns über viele spannende und zukunftsweisende Projekte. Aber auch im Immobiliensektor haben wir uns zu Experten entwickelt. Von Markenbildung bis hin zu innovativen Vertriebsstrategien unterstützen wir unsere Kunden und verschaffen ihnen immer den bestmöglichen Auftritt.&#xa;&#xa;Fernab von Automotive und Real Estate freuen wir uns sehr über die &#xa;Zusammenarbeit mit dem Bistum Aachen und dem Nell-Breuning-Haus. Nach zwei gewonnenen Ausschreibungen erarbeiten wir umfangreiche Kommunikationsstrategien, die sich um die Themen „Bekämpfung von Sexismus in Unternehmen“ und „Prävention von Radikalisierung bei der Bundeswehr“ drehen. Eine sehr anspruchsvolle und tolle Aufgabe!"/>
       <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-12.87" pan="-351.03" description="https://www.basis-station.de/pdf"/>
+      <polyhotspot url="{node3}" id="ht_node" title="B2B Area" target="-0.5/50.0/70.0" description="">
+        <polystring>-350.48/21.59|-9.91/17.17|-9.82/-3.47|-350.4/-4.26</polystring>
+      </polyhotspot>
+      <polyhotspot url="{node1}" id="Sustainability" title="Haupt Eingang" target="" description="">
+        <polystring>-341.03/15.25|-348.36/20.7|-348.37/-3.71|-340.95/-2.49</polystring>
+      </polyhotspot>
     </hotspots>
     <media>
       <lensflare id="Lensflare02" color="0xffffff" blinding="50.000" type="2" tilt="39.520" alpha="80.000" pan="-17.660"/>
