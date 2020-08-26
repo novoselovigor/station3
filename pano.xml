@@ -1,137 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.0.1" apprev="17227" start="node4">
-  <panorama id="node4" hideabout="1">
-    <input overlap="1" width="2048" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048">
-      <level width="2048" predecode="0" preload="0" height="2048"/>
-      <level width="1024" predecode="0" preload="0" height="1024"/>
-      <level width="512" predecode="0" preload="0" height="512"/>
-      <level width="256" predecode="1" preload="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+<tour apprev="17950" appversion="6.1.6" start="node4">
+  <panorama hideabout="1" id="node4">
+    <input levelbias="0.400" overlap="1" levelbiashidpi="1.000" width="2048" height="2048" levelingroll="0" leveltilesize="510" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" width="2048" height="2048"/>
+      <level predecode="0" preload="0" width="1024" height="1024"/>
+      <level predecode="0" preload="0" width="512" height="512"/>
+      <level predecode="1" preload="1" width="256" height="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="-77.6" tilt="-37.4"/>
-      <max fovstereographic="270" fov="120" pan="81.1" fovfisheye="360" scaletofit="1" tilt="32.6"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min fovpixel="2" tilt="-37.4" pan="-77.6"/>
+      <max fovstereographic="270" tilt="32.6" pan="81.1" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="station3 - Messestand" datetime="" longitude="" author="" info="" source="" latitude="" customnodeid="" tags="Desktop" description="" copyright="" comment=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" width="180" border="1" enabled="1" wordwrap="1" backgroundalpha="1" textalpha="1" borderalpha="1" borderradius="1" height="20"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot title="Willkommen!" url="" pan="11.24" id="Point01" target="" description="Hallo und herzlich Willkommen auf unserem virtuellen Messestand!&#xa;&#xa;Ich bin Ihre Ansprechpartnerin Julia bei station3.&#xa;&#xa;Wenn Sie Fragen zu einem unserer Produkte oder zu unseren Dienstleistungen haben, können Sie mich gerne kontaktieren unter 0178178187 /  julia@station3.de.&#xa;&#xa;Ich wünsche Ihnen viel Vergnügen bei Ihrem Rundgang!" skinid="welcome" tilt="-13.52"/>
+    <userdata latitude="" info="" author="" comment="" nodeid="node4" title="Willkommen" copyright="" source="" heading="0" description="" datetime="" tags="Desktop" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" enabled="1" textalpha="1" borderradius="1" width="180" height="20" background="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot url="" id="Point01" skinid="welcome" title="Willkommen!" target="" tilt="-13.52" pan="11.24" description="Hallo und herzlich Willkommen auf unserem virtuellen Messestand!&#xa;&#xa;Ich bin Ihre Ansprechpartnerin Julia bei station3.&#xa;&#xa;Wenn Sie Fragen zu einem unserer Produkte oder zu unseren Dienstleistungen haben, können Sie mich gerne kontaktieren unter 0178178187 /  julia@station3.de.&#xa;&#xa;Ich wünsche Ihnen viel Vergnügen bei Ihrem Rundgang!"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="1" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" rubberband="1" lockedmouse="0" invertwheel="0" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomfov="20" enabled="1" softedge="0" type="crossdissolve" zoomoutpause="1" zoomin="0" zoomspeed="1" blendtime="1" zoomout="0" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" hideabout="1" rubberband="1" lockedkeyboard="0" invertwheel="0" contextfullscreen="1" sensitivity="8" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" lockedwheel="0" contextprojections="0" simulatemass="1"/>
   </panorama>
-  <panorama id="node1" hideabout="1">
-    <input overlap="1" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048">
-      <level width="2048" predecode="0" preload="0" height="2048"/>
-      <level width="1024" predecode="0" preload="0" height="1024"/>
-      <level width="512" predecode="0" preload="0" height="512"/>
-      <level width="256" predecode="1" preload="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node1">
+    <input levelbias="0.400" overlap="1" levelbiashidpi="1.000" width="2048" height="2048" levelingroll="0" leveltilesize="510" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" width="2048" height="2048"/>
+      <level predecode="0" preload="0" width="1024" height="1024"/>
+      <level predecode="0" preload="0" width="512" height="512"/>
+      <level predecode="1" preload="1" width="256" height="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="270" tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" datetime="" longitude="" author="" info="" source="" latitude="" customnodeid="" tags="Desktop" description="" copyright="" comment=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" width="180" border="1" enabled="1" wordwrap="1" backgroundalpha="1" textalpha="1" borderalpha="1" borderradius="1" height="20"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot title="" url="{node2}" pan="-336.11" id="Produkt 1" target="" description="" skinid="ht_node_1" tilt="-3.57"/>
-      <hotspot title="" url="{node2}" pan="-9.9" id="Produkt" target="" description="" skinid="ht_node_1" tilt="-0.82"/>
+    <userdata latitude="" info="" author="" comment="" nodeid="node1" title="Haupt Eingang" copyright="" source="" heading="0" description="" datetime="" tags="Desktop" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" enabled="1" textalpha="1" borderradius="1" width="180" height="20" background="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot url="{node2}" id="Produkt 1" skinid="ht_node_1" title="Produkt 1" target="" tilt="-3.57" pan="-336.11" description=""/>
+      <hotspot url="{node2}" id="Produkt" skinid="ht_node_1" title="" target="" tilt="-0.82" pan="-9.9" description=""/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="1" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" rubberband="1" lockedmouse="0" invertwheel="0" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomfov="20" enabled="1" softedge="0" type="crossdissolve" zoomoutpause="1" zoomin="0" zoomspeed="1" blendtime="1" zoomout="0" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" hideabout="1" rubberband="1" lockedkeyboard="0" invertwheel="0" contextfullscreen="1" sensitivity="8" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" lockedwheel="0" contextprojections="0" simulatemass="1"/>
   </panorama>
-  <panorama id="node2" hideabout="1">
-    <input overlap="1" width="2048" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048">
-      <level width="2048" predecode="0" preload="0" height="2048"/>
-      <level width="1024" predecode="0" preload="0" height="1024"/>
-      <level width="512" predecode="0" preload="0" height="512"/>
-      <level width="256" predecode="1" preload="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node2">
+    <input levelbias="0.400" overlap="1" levelbiashidpi="1.000" width="2048" height="2048" levelingroll="0" leveltilesize="510" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" width="2048" height="2048"/>
+      <level predecode="0" preload="0" width="1024" height="1024"/>
+      <level predecode="0" preload="0" width="512" height="512"/>
+      <level predecode="1" preload="1" width="256" height="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="270" tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" datetime="" longitude="" author="" info="" source="" latitude="" customnodeid="" tags="Desktop" description="" copyright="" comment=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" width="180" border="1" enabled="1" wordwrap="1" backgroundalpha="1" textalpha="1" borderalpha="1" borderradius="1" height="20"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot title="Willkommen" url="{node1}" pan="-112.57" id="Point01" target="" description="" skinid="ht_node_1" tilt="1.73"/>
-      <hotspot title="Showreel" url="media/REEL-Comb-2.mp4" pan="-265.37" id="Showreel" target="" description="" skinid="ht_video_file" tilt="-7.47"/>
-      <hotspot title="" url="{node3}" pan="-349.56" id="Point02" target="" description="" skinid="ht_node_1" tilt="9.05"/>
-      <hotspot title="PDF" url="https://www.basis-station.de/pdf" pan="-271.72" id="Point03" target="_blank" description="https://www.basis-station.de/pdf" skinid="ht_url" tilt="-26.38"/>
-      <hotspot title="Chat mit Uns" url="" pan="-350.9" id="Point04" target="_blank" description="" skinid="ht_chat" tilt="-13.18"/>
-      <hotspot title="Info" url="" pan="-254.55" id="Point05" target="_blank" description="station3GmbH - die innovative Agentur, die gerne Großesbewegt. Und Kunden aus diversen Branchen vertrauen auf uns: Als Lead-Agentur betreuen wir den Digital-Etat von Mercedes-Benz Own Retail Deutschland für Transporter und Vans. Ganz egal, ob Webdesign oder -entwicklung, digitales Kampagnenmanagement oder CRM – die Marke liegt uns sehr und wir freuen uns über viele spannende und zukunftsweisende Projekte. Aber auch im Immobiliensektor haben wir uns zu Experten entwickelt. Von Markenbildung bis hin zu innovativen Vertriebsstrategien unterstützen wir unsere Kunden und verschaffen ihnen immer den bestmöglichen Auftritt.&#xa;&#xa;Fernab von Automotive und Real Estate freuen wir uns sehr über die &#xa;Zusammenarbeit mit dem Bistum Aachen und dem Nell-Breuning-Haus. Nach zwei gewonnenen Ausschreibungen erarbeiten wir umfangreiche Kommunikationsstrategien, die sich um die Themen „Bekämpfung von Sexismus in Unternehmen“ und „Prävention von Radikalisierung bei der Bundeswehr“ drehen. Eine sehr anspruchsvolle und tolle Aufgabe!" skinid="ht_info" tilt="-25.43"/>
+    <userdata latitude="" info="" author="" comment="" nodeid="node2" title="Produkt 1" copyright="" source="" heading="0" description="" datetime="" tags="Desktop" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" enabled="1" textalpha="1" borderradius="1" width="180" height="20" background="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot url="{node1}" id="Point01" skinid="ht_node_1" title="Willkommen" target="" tilt="1.73" pan="-112.57" description=""/>
+      <hotspot url="media/REEL-Comb-2.mp4" id="Showreel" skinid="ht_video_file" title="Showreel" target="" tilt="-7.47" pan="-265.37" description=""/>
+      <hotspot url="{node3}" id="Point02" skinid="ht_node_1" title="" target="" tilt="9.05" pan="-349.56" description=""/>
+      <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-26.38" pan="-271.72" description="https://www.basis-station.de/pdf"/>
+      <hotspot url="" id="Point05" skinid="ht_info" title="Info" target="_blank" tilt="-25.43" pan="-254.55" description="station3GmbH - die innovative Agentur, die gerne Großesbewegt. Und Kunden aus diversen Branchen vertrauen auf uns: Als Lead-Agentur betreuen wir den Digital-Etat von Mercedes-Benz Own Retail Deutschland für Transporter und Vans. Ganz egal, ob Webdesign oder -entwicklung, digitales Kampagnenmanagement oder CRM – die Marke liegt uns sehr und wir freuen uns über viele spannende und zukunftsweisende Projekte. Aber auch im Immobiliensektor haben wir uns zu Experten entwickelt. Von Markenbildung bis hin zu innovativen Vertriebsstrategien unterstützen wir unsere Kunden und verschaffen ihnen immer den bestmöglichen Auftritt.&#xa;&#xa;Fernab von Automotive und Real Estate freuen wir uns sehr über die &#xa;Zusammenarbeit mit dem Bistum Aachen und dem Nell-Breuning-Haus. Nach zwei gewonnenen Ausschreibungen erarbeiten wir umfangreiche Kommunikationsstrategien, die sich um die Themen „Bekämpfung von Sexismus in Unternehmen“ und „Prävention von Radikalisierung bei der Bundeswehr“ drehen. Eine sehr anspruchsvolle und tolle Aufgabe!"/>
+      <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-12.87" pan="-351.03" description="https://www.basis-station.de/pdf"/>
     </hotspots>
     <media>
-      <lensflare type="2" blinding="50" pan="-17.66" id="Lensflare02" alpha="80" color="0xffffff" tilt="39.52"/>
+      <lensflare id="Lensflare02" color="0xffffff" blinding="50.000" type="2" tilt="39.520" alpha="80.000" pan="-17.660"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="1" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0">
-      <clip length="150" cliptitle="Clip01" animtype="0" nodeid="" animtitle="Animation01" nextcliptitle="Clip01" nextclipstartview="88.7061/2.24403/70/4" nextclipnodeid="node2" transitiontype="0">
-        <keyframe type="0" valuestring="" property="0" additionaltrackid="" time="0" value="88.70610000000001" transitiontime="0"/>
-        <keyframe type="0" valuestring="" property="1" additionaltrackid="" time="0" value="2.24403" transitiontime="0"/>
-        <keyframe type="0" valuestring="" property="2" additionaltrackid="" time="0" value="70" transitiontime="0"/>
-        <keyframe type="0" valuestring="" property="3" additionaltrackid="" time="0" value="4" transitiontime="0"/>
-        <keyframe bezieroutvalue="25.9609" type="2" valuestring="" bezierintime="36.4611" bezierinvalue="91.2722" bezierouttime="62.7778" property="0" additionaltrackid="" time="50" value="57.6722" transitiontime="0"/>
-        <keyframe bezieroutvalue="-37.2746" type="2" valuestring="" bezierintime="34.7185" bezierinvalue="-11.9709" bezierouttime="62.6452" property="1" additionaltrackid="" time="50" value="-25.8171" transitiontime="0"/>
-        <keyframe bezieroutvalue="70" type="2" valuestring="" bezierintime="35" bezierinvalue="70" bezierouttime="62.9" property="2" additionaltrackid="" time="50" value="70" transitiontime="0"/>
-        <keyframe bezieroutvalue="-114.549" type="2" valuestring="" bezierintime="135" bezierinvalue="-114.549" bezierouttime="10150" property="0" additionaltrackid="" time="150" value="-114.549" transitiontime="0"/>
-        <keyframe bezieroutvalue="0.28623" type="2" valuestring="" bezierintime="135" bezierinvalue="0.28623" bezierouttime="10150" property="1" additionaltrackid="" time="150" value="0.28623" transitiontime="0"/>
-        <keyframe bezieroutvalue="70" type="2" valuestring="" bezierintime="135" bezierinvalue="70" bezierouttime="10150" property="2" additionaltrackid="" time="150" value="70" transitiontime="0"/>
-        <keyframe bezieroutvalue="-65.8832" type="2" valuestring="" bezierintime="82.3056" bezierinvalue="2.33409" bezierouttime="109.94" property="0" additionaltrackid="" time="93" value="-24.0659" transitiontime="0"/>
-        <keyframe bezieroutvalue="37.7354" type="2" valuestring="" bezierintime="79.8928" bezierinvalue="21.1568" bezierouttime="109.973" property="1" additionaltrackid="" time="93" value="28.3809" transitiontime="0"/>
-        <keyframe bezieroutvalue="100.02" type="2" valuestring="" bezierintime="80.563" bezierinvalue="80.2" bezierouttime="109.909" property="2" additionaltrackid="" time="93" value="88.59999999999999" transitiontime="0"/>
+    <transition zoomfov="20" enabled="1" softedge="0" type="crossdissolve" zoomoutpause="1" zoomin="0" zoomspeed="1" blendtime="1" zoomout="0" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01">
+      <clip animtype="0" nextclipnodeid="node2" nodeid="" animtitle="Animation01" cliptitle="Clip01" transitiontype="0" nextcliptitle="Clip01" length="150" nextclipstartview="88.7061/2.24403/70/4">
+        <keyframe property="0" time="0" valuestring="" additionaltrackid="" type="0" transitiontime="0" value="88.7061"/>
+        <keyframe property="1" time="0" valuestring="" additionaltrackid="" type="0" transitiontime="0" value="2.24403"/>
+        <keyframe property="2" time="0" valuestring="" additionaltrackid="" type="0" transitiontime="0" value="70"/>
+        <keyframe property="3" time="0" valuestring="" additionaltrackid="" type="0" transitiontime="0" value="4"/>
+        <keyframe property="0" time="50" valuestring="" additionaltrackid="" type="2" bezierintime="36.4611" bezierinvalue="91.2722" bezierouttime="62.7778" bezieroutvalue="25.9609" transitiontime="0" value="57.6722"/>
+        <keyframe property="1" time="50" valuestring="" additionaltrackid="" type="2" bezierintime="34.7185" bezierinvalue="-11.9709" bezierouttime="62.6452" bezieroutvalue="-37.2746" transitiontime="0" value="-25.8171"/>
+        <keyframe property="2" time="50" valuestring="" additionaltrackid="" type="2" bezierintime="35" bezierinvalue="70" bezierouttime="62.9" bezieroutvalue="70" transitiontime="0" value="70"/>
+        <keyframe property="0" time="150" valuestring="" additionaltrackid="" type="2" bezierintime="135" bezierinvalue="-114.549" bezierouttime="10150" bezieroutvalue="-114.549" transitiontime="0" value="-114.549"/>
+        <keyframe property="1" time="150" valuestring="" additionaltrackid="" type="2" bezierintime="135" bezierinvalue="0.28623" bezierouttime="10150" bezieroutvalue="0.28623" transitiontime="0" value="0.28623"/>
+        <keyframe property="2" time="150" valuestring="" additionaltrackid="" type="2" bezierintime="135" bezierinvalue="70" bezierouttime="10150" bezieroutvalue="70" transitiontime="0" value="70"/>
+        <keyframe property="0" time="93" valuestring="" additionaltrackid="" type="2" bezierintime="82.3056" bezierinvalue="2.33409" bezierouttime="109.94" bezieroutvalue="-65.8832" transitiontime="0" value="-24.0659"/>
+        <keyframe property="1" time="93" valuestring="" additionaltrackid="" type="2" bezierintime="79.8928" bezierinvalue="21.1568" bezierouttime="109.973" bezieroutvalue="37.7354" transitiontime="0" value="28.3809"/>
+        <keyframe property="2" time="93" valuestring="" additionaltrackid="" type="2" bezierintime="80.563" bezierinvalue="80.2" bezierouttime="109.909" bezieroutvalue="100.02" transitiontime="0" value="88.6"/>
       </clip>
     </animation>
-    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" rubberband="1" lockedmouse="0" invertwheel="0" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1"/>
+    <control lockedmouse="0" hideabout="1" rubberband="1" lockedkeyboard="0" invertwheel="0" contextfullscreen="1" sensitivity="8" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" lockedwheel="0" contextprojections="0" simulatemass="1"/>
   </panorama>
-  <panorama id="node3" hideabout="1">
-    <input overlap="1" width="2048" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048">
-      <level width="2048" predecode="0" preload="0" height="2048"/>
-      <level width="1024" predecode="0" preload="0" height="1024"/>
-      <level width="512" predecode="0" preload="0" height="512"/>
-      <level width="256" predecode="1" preload="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node3">
+    <input levelbias="0.400" overlap="1" levelbiashidpi="1.000" width="2048" height="2048" levelingroll="0" leveltilesize="510" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" width="2048" height="2048"/>
+      <level predecode="0" preload="0" width="1024" height="1024"/>
+      <level predecode="0" preload="0" width="512" height="512"/>
+      <level predecode="1" preload="1" width="256" height="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="1" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min fovpixel="1" tilt="-90" pan="0"/>
+      <max fovstereographic="270" tilt="90" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" datetime="" longitude="" author="" info="" source="" latitude="" customnodeid="" tags="Desktop" description="" copyright="" comment=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" width="180" border="1" enabled="1" wordwrap="1" backgroundalpha="1" textalpha="1" borderalpha="1" borderradius="1" height="20"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot title="" url="{node1}" pan="-102.92" id="Point01" target="" description="" skinid="ht_node_1" tilt="1.55"/>
-      <hotspot title="" url="" pan="-353.41" id="Demo" target="_blank" description="" skinid="ht_player" tilt="4.91"/>
-      <hotspot title="Info" url="" pan="-291.21" id="Point05" target="_blank" description="station3GmbH - die innovative Agentur ,die gerne Großesbewegt. Und Kunden aus diversen Branchen vertrauen auf uns: Als Lead-Agentur betreuen wir den Digital-Etat von Mercedes-Benz Own Retail Deutschland für Transporter und Vans. Ganz egal, ob Webdesign oder -entwicklung, digitales Kampagnenmanagement oder CRM – die Marke liegt uns sehr und wir freuen uns über viele spannende und zukunftsweisende Projekte. Aber auch im Immobiliensektor haben wir uns zu Experten entwickelt. Von Markenbildung bis hin zu innovativen Vertriebsstrategien unterstützen wir unsere Kunden und verschaffen ihnen immer den bestmöglichen Auftritt.&#xa;&#xa;Fernab von Automotive und Real Estate freuen wir uns sehr über die &#xa;Zusammenarbeit mit dem Bistum Aachen und dem Nell-Breuning-Haus. Nach zwei gewonnenen Ausschreibungen erarbeiten wir umfangreiche Kommunikationsstrategien, die sich um die Themen „Bekämpfung von Sexismus in Unternehmen“ und „Prävention von Radikalisierung bei der Bundeswehr“ drehen. Eine sehr anspruchsvolle und tolle Aufgabe!" skinid="ht_info" tilt="-25.36"/>
-      <hotspot title="PDF" url="https://www.basis-station.de/pdf" pan="-272.59" id="Point03" target="_blank" description="https://www.basis-station.de/pdf" skinid="ht_url" tilt="-26.18"/>
-      <hotspot title="Showreel" url="media/REEL-Comb-2.mp4" pan="-266.37" id="Showreel" target="" description="" skinid="ht_video_file" tilt="-7.45"/>
-      <hotspot title="Chat" url="" pan="-255.5" id="Point04" target="_blank" description="" skinid="ht_chat" tilt="-25.57"/>
+    <userdata latitude="" info="" author="" comment="" nodeid="node3" title="Produkt 2" copyright="" source="" heading="0" description="" datetime="" tags="Desktop" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" enabled="1" textalpha="1" borderradius="1" width="180" height="20" background="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot url="{node1}" id="Point01" skinid="ht_node_1" title="" target="" tilt="1.55" pan="-102.92" description=""/>
+      <hotspot url="" id="Demo" skinid="ht_player" title="" target="_blank" tilt="4.91" pan="-353.41" description=""/>
+      <hotspot url="" id="Point05" skinid="ht_info" title="Info" target="_blank" tilt="-25.36" pan="-291.21" description="station3GmbH - die innovative Agentur ,die gerne Großesbewegt. Und Kunden aus diversen Branchen vertrauen auf uns: Als Lead-Agentur betreuen wir den Digital-Etat von Mercedes-Benz Own Retail Deutschland für Transporter und Vans. Ganz egal, ob Webdesign oder -entwicklung, digitales Kampagnenmanagement oder CRM – die Marke liegt uns sehr und wir freuen uns über viele spannende und zukunftsweisende Projekte. Aber auch im Immobiliensektor haben wir uns zu Experten entwickelt. Von Markenbildung bis hin zu innovativen Vertriebsstrategien unterstützen wir unsere Kunden und verschaffen ihnen immer den bestmöglichen Auftritt.&#xa;&#xa;Fernab von Automotive und Real Estate freuen wir uns sehr über die &#xa;Zusammenarbeit mit dem Bistum Aachen und dem Nell-Breuning-Haus. Nach zwei gewonnenen Ausschreibungen erarbeiten wir umfangreiche Kommunikationsstrategien, die sich um die Themen „Bekämpfung von Sexismus in Unternehmen“ und „Prävention von Radikalisierung bei der Bundeswehr“ drehen. Eine sehr anspruchsvolle und tolle Aufgabe!"/>
+      <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-25.06" pan="-254.76" description="https://www.basis-station.de/pdf"/>
+      <hotspot url="media/REEL-Comb-2.mp4" id="Showreel" skinid="ht_video_file" title="Showreel" target="" tilt="-7.45" pan="-266.37" description=""/>
+      <hotspot url="https://www.basis-station.de/pdf" id="Point03" skinid="ht_url" title="PDF" target="_blank" tilt="-26.45" pan="-272.51" description="https://www.basis-station.de/pdf"/>
     </hotspots>
     <media>
-      <lensflare type="2" blinding="50" pan="-13.2" id="Lensflare01" alpha="80" color="0xffffff" tilt="39.58"/>
+      <lensflare id="Lensflare01" color="0xffffff" blinding="50.000" type="2" tilt="39.580" alpha="80.000" pan="-13.200"/>
     </media>
-    <transition type="crossdissolve" zoomin="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="1" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" rubberband="1" lockedmouse="0" invertwheel="0" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomfov="20" enabled="1" softedge="0" type="crossdissolve" zoomoutpause="1" zoomin="0" zoomspeed="1" blendtime="1" zoomout="0" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" hideabout="1" rubberband="1" lockedkeyboard="0" invertwheel="0" contextfullscreen="1" sensitivity="8" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" lockedwheel="0" contextprojections="0" simulatemass="1"/>
   </panorama>
   <masternode>
-    <userdata title="" datetime="" longitude="" author="" info="" source="" latitude="" customnodeid="" tags="" description="" copyright="" comment=""/>
+    <userdata latitude="" info="" author="" comment="" nodeid="master" title="" copyright="" source="" heading="0" description="" datetime="" tags="" longitude="" customnodeid=""/>
   </masternode>
 </tour>
